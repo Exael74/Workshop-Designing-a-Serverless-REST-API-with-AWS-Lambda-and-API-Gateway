@@ -1,0 +1,35 @@
+{
+  "resource": "/orders/{id}",
+  "path": "/orders/ORD-001",
+  "httpMethod": "GET",
+  "headers": {
+    "Host": "j6ao6q0bv3.execute-api.us-east-1.amazonaws.com",
+    "User-Agent": "curl/8.17.0",
+    "Accept": "*/*"
+  },
+  "multiValueHeaders": {
+    "Host": ["j6ao6q0bv3.execute-api.us-east-1.amazonaws.com"],
+    "User-Agent": ["curl/8.17.0"],
+    "Accept": ["*/*"]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": {
+    "id": "ORD-001"
+  },
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "1db6h5",
+    "resourcePath": "/orders/{id}",
+    "httpMethod": "GET",
+    "requestId": "e3eb846b-60ca-401e-b6b9-a1e051bb0f56",
+    "path": "/prod/orders/ORD-001",
+    "stage": "prod",
+    "apiId": "j6ao6q0bv3",
+    "identity": {
+      "sourceIp": "203.0.113.10"
+    }
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
