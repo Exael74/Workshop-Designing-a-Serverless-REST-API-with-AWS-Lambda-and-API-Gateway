@@ -503,6 +503,16 @@ any unexpected failure.
 
 ### Architecture diagram
 
+The diagram below maps every class in the project onto the request
+flow: the API client, API Gateway, the HTTP adapters (proxy dispatcher,
+get/search/create handlers and their DTOs), and the Order domain layer
+at the bottom (`OrderService`, `Order`, the two domain exceptions).
+
+![Architecture diagram](orders-api/docs/architecture-diagram.png)
+
+A simplified version of the same flow, for the proxy integration
+specifically:
+
 ```mermaid
 flowchart TD
     Client[Client<br/>curl / Postman]
